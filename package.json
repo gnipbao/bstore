@@ -1,5 +1,5 @@
 {
-  "name": "localstorage-fallback",
+  "name": "bstore",
   "version": "1.0.0",
   "description": "Simple localStorage with memory fallback use es6",
   "main": "dist/storage.js",
