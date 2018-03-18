@@ -1,0 +1,36 @@
+{
+  "name": "localstorage-fallback",
+  "version": "1.0.0",
+  "description": "Simple localStorage with memory fallback use es6",
+  "main": "dist/storage.js",
+  "scripts": {
+    "prettier-watch": "npx onchange 'src/*.js' -- prettier --write {{changed}}",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnipbao/localstorage-fallback.git"
+  },
+  "keywords": [
+    "localstorage",
+    "memoryStorage"
+  ],
+  "author": "Gnip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnipbao/localstorage-fallback/issues"
+  },
+  "homepage": "https://github.com/gnipbao/localstorage-fallback#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "prettier": "^1.11.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}

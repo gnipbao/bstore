@@ -1,2 +1,2 @@
 # localstorage-fallback
-:storage: Simple localStorage with memory fallback use es6
+Simple localStorage with memory fallback use es6
