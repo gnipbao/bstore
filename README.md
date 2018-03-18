@@ -1,2 +1,2 @@
 # bstorage
-Simple localStorage with memory fallback use es6 for broswer
+Simple localStorage with memory fallback use es6 for browser
