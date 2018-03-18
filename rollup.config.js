@@ -8,7 +8,7 @@ export default {
   input: 'src/storage.js',
   output: {
     name: 'storage',
-    file: 'dist/storage.min.js',
+    file: 'dist/storage.js',
     format: 'umd'
   },
   plugins: [
@@ -17,6 +17,6 @@ export default {
     babel({
       exclude: ['node_modules/**']
     }),
-    uglify()
+    //uglify()
   ]
 };

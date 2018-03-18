@@ -8,7 +8,6 @@
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-  // simple localstorage kit use native or fallback to memorystorage
   var TEST_KEY = "__test__";
   // memory storage
 

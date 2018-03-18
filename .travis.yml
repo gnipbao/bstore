@@ -1,0 +1,8 @@
+language: node_js
+before_script:
+  - npm install -g rollup
+  - npm install
+cache:
+  directories:
+    - "node_modules"
+script: npm run build

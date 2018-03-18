@@ -1,4 +1,3 @@
-// simple localstorage kit use native or fallback to memorystorage
 const TEST_KEY = "__test__";
 // memory storage
 class memoryStorage {
