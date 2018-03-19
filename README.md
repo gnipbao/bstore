@@ -1,5 +1,5 @@
 # bstore
-> a simple localstorage with memory fallback for browser.
+> A simple localStorage with memory storage fallback in browser.
 
 [![Build Status](https://travis-ci.org/gnipbao/bstore.svg?branch=master)](https://travis-ci.org/gnipbao/bstore)
 [![GitHub license](https://img.shields.io/github/license/gnipbao/bstore.svg)](https://github.com/gnipbao/bstore/blob/master/LICENSE)
