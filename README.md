@@ -11,34 +11,41 @@ $ npm install --save bstore
 ```
 ## Usage
 ```js
+// import
 import ls from bstore;
-ls.setItem('key','value');
-ls.getItem('key'); // value
-ls.removeItem('key');
+
+ls.set('key','value');
+ls.get('key'); // value
+
+ls.remove('key');
+
+// require
+const ls = require('bstore')
+
+ls.set('key','value');
+ls.get('key'); // value
+
+ls.remove('key');
 ```
+
 ## API
 
-### localstorage
-firstly use native LocalStorage see [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage)
-
-### memory storage
-
-+ **setItem(key, value)**
-
-  set storage with key and value.
-+ **getItem(key)**
-
-  get storage with key, return undefined if not find.
-+ **removeItem(key)**
-
-  remove storage with key.
-+ **key(index)**  
-
-  use `Object.keys()` get key by index.
-+ **clear()**
-
-  clear all storage
-  
+### set(key, value)
+set storage with key and value
+### get(key)
+get storage with key, return undefined if not find.
+### remove(key)
+remove storage with key.
+### key(index) 
+get key by index.
+### has(key)
+if has key return true else false.
+### clear()
+clear all storage
+### forEach(cb) 
+forEach the storages and call the cb function with each storage
+### getAll()
+get all the storages.
 
 
 

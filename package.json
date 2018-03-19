@@ -1,13 +1,13 @@
 {
   "name": "bstore",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simple localStorage with memory fallback use es6",
   "main": "dist/storage.js",
   "scripts": {
     "prettier-watch": "npx onchange 'src/*.js' -- prettier --write {{changed}}",
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,9 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.0.4",
     "prettier": "^1.11.1",
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
