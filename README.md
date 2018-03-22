@@ -3,7 +3,8 @@
 
 [![Build Status](https://travis-ci.org/gnipbao/bstore.svg?branch=master)](https://travis-ci.org/gnipbao/bstore)
 [![GitHub license](https://img.shields.io/github/license/gnipbao/bstore.svg)](https://github.com/gnipbao/bstore/blob/master/LICENSE)
-[![Gemnasium](https://img.shields.io/gemnasium/mathiasbynens/he.svg?style=social)](https://github.com/gnipbao/bstore)
+[![Gemnasium](https://img.shields.io/gemnasium/mathiasbynens/he.svg)](https://github.com/gnipbao/bstore)
+
 
 
 ## Install
